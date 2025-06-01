@@ -4,7 +4,7 @@ This is a keyboard (quasi input method) for evaluating HTML or JavaScript code o
 
 It has only three keys (buttons). The top-left button, which looks like the `</>` symbol, will evaluate any selected HTML code (plain text) and replace it with styled text (rich text). The top-right button, which looks like the `{ }` symbol, will evaluate any selected JavaScript code (plain text) and replace it with the result. And the button below them will allow you to switch to another keyboard, because this keyboard currently can't be used to type letters except by the method described above.
 
-Now you can code everywhere. Every text input field is your coding environment. No need to switch to another app any more.
+Now you can code everywhere. Every text input field is your coding environment. No need to open another app any more.
 
 ### Screenshots
 
