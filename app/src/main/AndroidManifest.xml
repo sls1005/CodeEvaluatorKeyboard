@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CodeEvaluatorKeyboard"
+        tools:targetApi="35">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CodeEvaluatorKeyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DocumentationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CodeEvaluatorKeyboard"/>
+        <activity
+            android:name=".ShowOpenSourceLibrariesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CodeEvaluatorKeyboard"/>
+        <service
+            android:name=".CodeEvaluatorKeyboard"
+            android:label="Code Evaluator Keyboard"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im"
+                android:resource="@xml/method"/>
+        </service>
+    </application>
+</manifest>

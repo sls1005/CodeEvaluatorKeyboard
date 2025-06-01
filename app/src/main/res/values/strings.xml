@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Code Evaluator Keyboard</string>
+    <string name="button_html"><![CDATA[</>]]></string>
+    <string name="button_js">{ }</string>
+    <string name="button_change_keyboard">Change keyboard</string>
+</resources>
