@@ -40,7 +40,7 @@
             android:id="@+id/js_engine"
             android:layout_width="1dp"
             android:layout_height="1dp"
-            android:layout_margin="5dp"
+            android:layout_margin="1dp"
             android:visibility="invisible"/>
         <Button
             android:id="@+id/button_change_keyboard"
